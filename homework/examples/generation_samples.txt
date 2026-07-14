@@ -1,0 +1,28 @@
+Примеры генерации обученной модели
+========================================
+
+PROMPT: Once upon a time
+TEMPERATURE: 0.8
+OUTPUT: Once upon a time,
+ci a
+-
+- you bit, and of
+ could could could out.
+----------------------------------------
+
+PROMPT: The rabbit
+TEMPERATURE: 0.8
+OUTPUT: The rabbit
+----------------------------------------
+
+PROMPT: Alice was
+TEMPERATURE: 0.8
+OUTPUT: Alice was up very verywhich
+ in, that know! doubt bit splashing.
+----------------------------------------
+
+PROMPT: The rabbit
+METHOD: beam_search (beam_width=4)
+OUTPUT: The rabbit.
+----------------------------------------
+
